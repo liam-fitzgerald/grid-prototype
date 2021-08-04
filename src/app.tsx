@@ -13,7 +13,7 @@ export function App() {
   }, [])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/apps/landscape/grid">
       <Switch>
         <Route path="/" component={Grid} />
       </Switch>
